@@ -1,5 +1,3 @@
-import Main from "../components/compound/Main";
-
 const HomeDetail = () => {
   return (
     <>
@@ -9,8 +7,8 @@ const HomeDetail = () => {
             <p className="hero-badge">Nature-first travel platform</p>
             <h1>Escape into unforgettable forest retreats.</h1>
             <p>
-              Mywoods brings together scenic cabin stays, guided adventures,
-              and peaceful woodland escapes in one elegant booking experience.
+              Mywoods brings together scenic cabin stays, guided adventures, and
+              peaceful woodland escapes in one elegant booking experience.
             </p>
             <div className="hero-actions">
               <a className="hero-btn primary" href="/woods">
@@ -58,17 +56,17 @@ const HomeDetail = () => {
             Mywoods is a curated travel marketplace designed for nature
             enthusiasts and adventure seekers. Discover breathtaking forest
             escapes, immersive camping sites, and guided excursions across
-            scenic woodlands. Each listing includes beautiful imagery,
-            honest descriptions, and practical details so you can choose the
-            perfect outdoor retreat.
+            scenic woodlands. Each listing includes beautiful imagery, honest
+            descriptions, and practical details so you can choose the perfect
+            outdoor retreat.
           </p>
           <p>
             Our platform connects you with trusted local hosts, sustainable
-            experiences, and tailored itineraries that suit beginner or
-            seasoned travelers. Whether you want a quiet weekend in the
-            woods, a family-friendly nature stay, or a guided hiking trip,
-            Mywoods helps you book safe, memorable, and eco-conscious
-            adventures in just a few clicks.
+            experiences, and tailored itineraries that suit beginner or seasoned
+            travelers. Whether you want a quiet weekend in the woods, a
+            family-friendly nature stay, or a guided hiking trip, Mywoods helps
+            you book safe, memorable, and eco-conscious adventures in just a few
+            clicks.
           </p>
         </div>
       </section>

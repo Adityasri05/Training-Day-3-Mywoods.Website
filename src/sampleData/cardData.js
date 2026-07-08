@@ -5,6 +5,7 @@ const CardData = [
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
     title: "Aspen",
     category: "Travel",
+    rating: "4.8",
     description:
       "Explore breathtaking mountains and enjoy unforgettable hiking experiences.",
     price: "$199",
@@ -15,6 +16,7 @@ const CardData = [
       "https://images.unsplash.com/photo-1493246318656-5bfd4cfb29b8?w=600",
     title: "Alpine",
     category: "Vacation",
+    rating: "4.9",
     description:
       "Relax on crystal-clear beaches with amazing sunset views.",
     price: "$249",
@@ -25,6 +27,7 @@ const CardData = [
       "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=600",
     title: "Red Woods",
     category: "Nature",
+    rating: "5.0",
     description:
       "Reconnect with nature through peaceful camping adventures.",
     price: "$149",

@@ -1,22 +1,31 @@
 
 function Card({ item }) {
   return (
-    <div className="card">
-      <img src={item.image} alt={item.title} className="card-image" />
+    <article className="card">
+      <div className="card-image-wrap">
+        <img src={item.image} alt={item.title} className="card-image" />
+        <span className="card-badge">{item.category}</span>
+      </div>
 
       <div className="card-content">
-        <span className="category">{item.category}</span>
-
-        <h2>{item.title}</h2>
+        <div className="card-heading">
+          <div>
+            <h2>{item.title}</h2>
+            <p className="card-rating">⭐ {item.rating}</p>
+          </div>
+        </div>
 
         <p>{item.description}</p>
 
         <div className="card-footer">
-          <h3>{item.price}</h3>
+          <div>
+            <h3>{item.price}</h3>
+            <span className="card-meta">per night</span>
+          </div>
           <button>Book Now</button>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 

@@ -6,8 +6,6 @@ import Woods from "./routes/Woods/pages";
 import Home from "./routes/Home";
 import Header from "./components/compound/Header";
 import Footer from "./components/compound/Footer";
-import CMS from "./routes/cms";
-import TODO from "./routes/todo";
 
 
 
@@ -21,8 +19,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/woods" element={<Woods />} />
-        <Route path="/cms" element={<CMS />} />
-        <Route path="/todo" element={<TODO />} />
         {/* <Route path="/about" element={<Aboutus />} /> */}
       </Routes>
       <hr/>
